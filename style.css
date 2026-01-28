@@ -16,6 +16,19 @@ header {
     text-align: center;
     background: #020617;
     border-bottom: 1px solid #1e293b;
+    .hero {
+    display: flex;
+    align-items: center;   /* vertical alignment */
+    gap: 20px;
+}
+
+.profile-img {
+    width: 300px;
+    height: px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 }
 
 header h1 {
